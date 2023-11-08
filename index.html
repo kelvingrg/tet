@@ -4,72 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hi all welcome to Mern </title>
-   <link rel="stylesheet" href="mystyles.css">
-   <link rel="stylesheet" href="style.css">
-   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-
-   <style>
-.parent{
-  height:300px;
-display: grid;
-grid-template-columns: 100px 100px 100px ;
-grid-auto-rows: 15px;
-background-color: antiquewhite;
-gap: 10px;
-align-content: start;
-justify-content: space-around;
-
-
-}
-.child{
-  border:1px solid rgb(0, 217, 255);
-  overflow: auto;
-
-}
-.child1{
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-
-}
-.child8{
-grid-column-start: 3;
-grid-column-end: 4;
-grid-row-start: 3;
-  grid-row-end: 6;
-  background-color: green;
-
-}
-.child2{
-  grid-row-start: 3;
-  grid-row-end: 6
-}
-
-   </style>
+<link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<style>
+  .bg-danger{
+    background-color: red;
+  }
+  .justify-content-between{
+    justify-content: space-between;
+  }
+</style>
 </head>
 <body>
+<div class="bg-primary p-3 ">
 
-  <div class="parent">
-    <!-- <div class="child child1"> 1</div>
-    <div class="child"> 2</div>
-    <div class="child"> 3</div>
-    <div class="child"> 4</div>
-    <div class="child"> 5</div>
-    <div class="child"> 6</div>
-    <div class="child"> 7</div>
-    <div class="child child8"> 8</div>
-    <div class="child"> 9</div>
-    <div class="child"> 10</div> -->
+<div class="d-flex justify-content-between d-md-none " >
+  <span>Brand Icon</span>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+  </svg>
+</div>
+
+<div class="d-none d-md-flex  justify-content-between ">
+  <div>
+    <span>BrandIcon</span>
+    <span>Home</span>
+    <span>examples</span>
+    <span>icons</span>
+    <span>Theme</span>
   </div>
+
+  <div>
+    <input type="text">
+  </div>
+
+  <div>
+    <span class="">icons</span>
+    <span class="bg-warning   p-3 m-xxl-5 ">icon2</span>
+    <span>icon3</span>
+  </div>
+
+</div>
+
+
+</div>
+
+<div class="bg-warning border text-break text-uppercase fs-6 fst-italic " style="width: 100px;">hai hellow all  </div>
+
+<p class="text-muted">
+  Muted text with a <a href="#id" class="text-reset" >reset link</a>.
+</p>
 </body>
-chnage 1 
-chnage 2
-chnage 3
-resdfghred
-jhguhfd
-jhugbdf
-iughuihrdgf
-jhguirfgi
+//span works for 1-100
+<!-- <span>1</span> -->
+
+<p><a href="#" class="pe-none" tabindex="-1" >This link</a> can not be clicked.</p>
+<p><a href="#" class="pe-auto">This link</a> can be clicked (this is default behavior).</p>
+<p class="pe-none"><a href="#" tabindex="-1" >This link</a> can not be clicked because the <code>pointer-events</code> property is inherited from its parent. However, <a href="#" class="pe-auto">this link</a> has a <code>pe-auto</code> class and can be clicked.</p>
 
 </html>
